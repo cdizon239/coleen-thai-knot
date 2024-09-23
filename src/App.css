@@ -107,7 +107,6 @@
 }
 
 .highlight-text {
-  font-style: italic;
   font-size: 1rem;
   color: #60442b; /* Adjusted color to fit the theme */
 }
@@ -267,7 +266,7 @@
   }
 
   .highlight-text {
-    font-size: 1.2em;
+    font-size: 1em;
     color: #333;
   }
 }
@@ -288,4 +287,10 @@
 
 .details-info a:hover {
   text-decoration: underline; /* Underline on hover for better UX */
+}
+
+/* Styling for the "falling into place" phrase */
+.falling-into-place {
+  color: #8B4513; /* Brown color */
+  font-weight: bold; /* Make it stand out */
 }

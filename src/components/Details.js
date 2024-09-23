@@ -6,7 +6,7 @@ const Details = () => {
     <section className="details-container">
       {/* Title for mobile view */}
       <div className="details-highlight details-highlight-mobile">
-          <p className="highlight-text">"Every moment led us here, falling into place, just as it was meant to be."</p>
+          <p className="highlight-text">"Every moment led us here, <span className="falling-into-place">falling into place</span>, just as it was meant to be."</p>
       </div>
 
       {/* Image container */}
@@ -17,7 +17,7 @@ const Details = () => {
       <div className="details-content">
         {/* Highlighted "falling into place" quote for added theme emphasis */}
         <div className="details-highlight details-highlight-desktop">
-          <p className="highlight-text">"Every moment led us here, falling into place, just as it was meant to be."</p>
+          <p className="highlight-text">"Every moment led us here, <span className="falling-into-place">falling into place</span>, just as it was meant to be."</p>
         </div>
         
         {/* Title for desktop view */}
