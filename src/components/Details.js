@@ -1,11 +1,11 @@
 import React from 'react';
+import { FaMapMarkerAlt } from 'react-icons/fa'; // Import the location icon
 
 const Details = () => {
   return (
     <section className="details-container">
       {/* Title for mobile view */}
-      {/* <h2 className="details-title-mobile">Details at a Glance</h2> */}
-      <div className=" details-highlight details-highlight-mobile">
+      <div className="details-highlight details-highlight-mobile">
           <p className="highlight-text">"Every moment led us here, falling into place, just as it was meant to be."</p>
       </div>
 
@@ -25,10 +25,10 @@ const Details = () => {
         
         {/* Introductory message */}
         <p className='italic'>
-        This day celebrates the beautiful journey that brought us together, one piece at a time. As we take this next step, we’re grateful for every moment that guided us here.
+          This day celebrates the beautiful journey that brought us together, one piece at a time. As we take this next step, we’re grateful for every moment that guided us here.
         </p>        
         <br/>
-        <p className='italic'>Your presence is the final piece that will make our day truly complete!!</p>
+        <p className='italic'>Your presence is the final piece that will make our day truly complete!</p>
         
         {/* Event details section */}
         <div className="details-info">
@@ -39,17 +39,32 @@ const Details = () => {
           
           <h3>CEREMONY</h3>
           <p>4:15 PM</p>
-          <p>Boston Public Garden</p>
+          <p>
+            <FaMapMarkerAlt className="location-icon" /> 
+            <a href="https://maps.app.goo.gl/XXEZ8TrXMVTPz4eS7" target="_blank" rel="noopener noreferrer">
+              Boston Public Garden
+            </a>
+          </p>
           <p>Boston, MA 02116</p>
           
           <h3>COCKTAIL HOUR</h3>
           <p>6:00 PM</p>
-          <p>Miscela</p>
+          <p>
+            <FaMapMarkerAlt className="location-icon" /> 
+            <a href="https://maps.app.goo.gl/bf3NizcSoSdKukFe8" target="_blank" rel="noopener noreferrer">
+              Miscela
+            </a>
+          </p>
           <p>485 Foley St, Somerville, MA 02145</p>
           
           <h3>DINNER</h3>
           <p>7:30 PM</p>
-          <p>Baldwin Bar at Sichuan Garden</p>
+          <p>
+            <FaMapMarkerAlt className="location-icon" /> 
+            <a href="https://maps.app.goo.gl/MGFYiEU4KuMNxU618" target="_blank" rel="noopener noreferrer">
+              Baldwin Bar at Sichuan Garden
+            </a>
+          </p>
           <p>2 Alfred St, Woburn, MA 01801</p>
         </div>
       </div>

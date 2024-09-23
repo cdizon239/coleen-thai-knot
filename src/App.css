@@ -271,3 +271,21 @@
     color: #333;
   }
 }
+
+
+/* Styling for location icon and link */
+.location-icon {
+  color: #8B4513; /* Brown color */
+  margin-right: 5px;
+  font-size: 1.1rem;
+  vertical-align: middle; /* Aligns the icon with the text */
+}
+
+.details-info a {
+  text-decoration: none; /* Remove underline */
+  font-weight: 300; /* Make the link stand out */
+}
+
+.details-info a:hover {
+  text-decoration: underline; /* Underline on hover for better UX */
+}
