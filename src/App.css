@@ -254,14 +254,9 @@
     max-width: 75%;
   }
 
-  .details-title-mobile {
-    display: block;
-    font-weight: 300 !important;
-    font-size: 4rem;
-  }
-
   .details-title-desktop {
-    display: none;
+    font-weight: 300 !important;
+    font-size: 2rem;
   }
   .details-highlight-desktop {
     display: none;
