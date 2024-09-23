@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coleen-thai-knot/static/css/main.2c5de164.css",
-    "main.js": "/coleen-thai-knot/static/js/main.cf0425d7.js",
-    "static/js/453.0bc3462f.chunk.js": "/coleen-thai-knot/static/js/453.0bc3462f.chunk.js",
-    "static/media/cover.jpeg": "/coleen-thai-knot/static/media/cover.12c0a0c38d44f5ba45bd.jpeg",
-    "index.html": "/coleen-thai-knot/index.html",
-    "main.2c5de164.css.map": "/coleen-thai-knot/static/css/main.2c5de164.css.map",
-    "main.cf0425d7.js.map": "/coleen-thai-knot/static/js/main.cf0425d7.js.map",
-    "453.0bc3462f.chunk.js.map": "/coleen-thai-knot/static/js/453.0bc3462f.chunk.js.map"
+    "main.css": "/cdizon239/coleen-thai-knot/static/css/main.3ae2e8b5.css",
+    "main.js": "/cdizon239/coleen-thai-knot/static/js/main.4a962f79.js",
+    "static/js/453.0bc3462f.chunk.js": "/cdizon239/coleen-thai-knot/static/js/453.0bc3462f.chunk.js",
+    "static/media/cover.jpeg": "/cdizon239/coleen-thai-knot/static/media/cover.12c0a0c38d44f5ba45bd.jpeg",
+    "index.html": "/cdizon239/coleen-thai-knot/index.html",
+    "main.3ae2e8b5.css.map": "/cdizon239/coleen-thai-knot/static/css/main.3ae2e8b5.css.map",
+    "main.4a962f79.js.map": "/cdizon239/coleen-thai-knot/static/js/main.4a962f79.js.map",
+    "453.0bc3462f.chunk.js.map": "/cdizon239/coleen-thai-knot/static/js/453.0bc3462f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5de164.css",
-    "static/js/main.cf0425d7.js"
+    "static/css/main.3ae2e8b5.css",
+    "static/js/main.4a962f79.js"
   ]
 }
