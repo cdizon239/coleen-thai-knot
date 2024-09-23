@@ -193,6 +193,12 @@
     border-radius: 5px; /* Added rounded corners for a softer look */
   }
 
+  .details-highlight-mobile {
+    display: block;
+    font-size: 1rem;
+
+  }
+
   .details-highlight-desktop {
     display: none;
   }
