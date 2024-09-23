@@ -7,7 +7,7 @@ const Header = () => {
       <div className="header-content">
         <h1>Coleen & Thai</h1>
         <h2>Say I Do in Boston</h2>
-        <p>October 19, 2024</p>
+        <p>10.19.2024</p>
       </div>
     </header>
   );

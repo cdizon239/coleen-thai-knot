@@ -15,7 +15,7 @@
   align-items: center;
   text-align: center;
   color: #fff;
-  position: relative; /* Added to position the pseudo-element */
+  position: relative;
 }
 
 .header-container::before {
@@ -25,15 +25,14 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(123,91,75, 0.6); /*60% opacity black overlay
-  z-index: 1; /* Ensures the overlay appears above the background image */
+  background-color: rgba(123, 91, 75, 0.6); /* Adjusted overlay color for consistency */
+  z-index: 1;
 }
 
 .header-container > * {
-  position: relative; /* Ensures content appears above the overlay */
+  position: relative;
   z-index: 2; 
 }
-
 
 .header-content h1 {
   font-size: 6rem;
@@ -49,20 +48,19 @@
   font-size: 1.2rem;
 }
 
-
 /* Details Section Styles */
 .details-container {
   display: flex;
   justify-content: space-evenly;
-  align-items: flex-start;
-  padding: 2rem 0 2rem 0;
+  align-items: center;
+  padding: 2rem 0;
   background-color: #e5e0da;
   width: 100%;
   max-width: 100%;
   text-align: center;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   gap: 2rem;
-  position: relative; /* Ensure relative positioning for the mobile title */
+  position: relative;
 }
 
 .details-image-container {
@@ -86,27 +84,49 @@
   font-weight: 300;
 }
 
-.details-info h2 {
-  margin: 2.5rem 0 0.5rem 0;
+.details-info h2, .details-info h3 {
+  margin: 2rem 0 0.5rem 0;
   font-weight: 600 !important;
+  color: #60442b; /* Added consistent color */
+}
+
+.details-highlight {
+  text-align: center;
+  margin: 20px 0;
+  padding: 10px;
+  /* background-color: #fdfdfd; Slightly lighter background to make the quote stand out */
+  border-left: 4px solid #b38b6d;
+  border-right: 4px solid #b38b6d;
+  border-radius: 5px; /* Added rounded corners for a softer look */
+}
+
+.highlight-text {
+  font-style: italic;
+  font-size: 1rem;
+  color: #60442b; /* Adjusted color to fit the theme */
 }
 
 /* Mobile-specific title styling */
 .details-title-mobile {
-  display: none; /* Hidden by default */
+  display: none;
+}
+
+.details-highlight-mobile {
+  display: none;
 }
 
 .details-title-desktop {
-  display: block; /* Visible by default */
+  display: block;
   font-size: 4rem;
-  margin-bottom: 1REM;;
+  margin-bottom: 1rem;
+  color: #3a2e20; /* Title color to fit the theme */
 }
 
 /* Media Queries for Tablet and Smaller Devices */
 @media (max-width: 768px) {
   .header-container {
     max-height: 40vh !important;
-    background-size: 150%; /* Adjust this value to control the zoom level */
+    background-size: 150%; 
     padding: 0 1rem;
   }
 
@@ -130,21 +150,19 @@
     gap: 1rem;
   }
 
-  .details-image-container{
+  .details-image-container {
     max-width: 65%;
-  }
-  .details-content {
-    max-width: 90%;
   }
 
   .details-content {
+    max-width: 90%;
     text-align: center;
   }
 
   .details-info h3 {
     font-size: 1rem;
   }
-
+  
   .contact-container {
     width: 90%;
     padding: 1rem;
@@ -152,6 +170,25 @@
 
   .contact-container h2 {
     font-size: 1.2rem;
+  }
+
+  .details-highlight {
+    text-align: center;
+    margin: 20px 5px;
+    padding: 10px;
+    /* background-color: #fdfdfd; Slightly lighter background to make the quote stand out */
+    border-left: 4px solid #b38b6d;
+    border-right: 4px solid #b38b6d;
+    border-radius: 5px; /* Added rounded corners for a softer look */
+  }
+
+  .details-highlight-desktop {
+    display: none;
+  }
+
+  .highlight-text {
+    font-size: 1.2em;
+    color: #333;
   }
 }
 
@@ -161,7 +198,7 @@
   text-align: center;
 }
 
-.footer-title{
+.footer-title {
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
@@ -170,49 +207,55 @@
 @media (max-width: 480px) {
   .header-container {
     height: 50vh;
-    background-size: 200%; /* Adjust this value to control the zoom level */
+    background-size: 200%;
     background-repeat: no-repeat;
-
   }
 
   .header-content h1 {
-    font-size: 3rem; /* Increased from 2rem to 3rem */
+    font-size: 3rem;
   }
 
   .header-content h2 {
-    font-size: 2rem; /* Increased from 1.2rem to 2rem */
+    font-size: 2rem;
   }
 
   .header-content p {
-    font-size: 1.2rem; /* Adjusted from 1rem to 1.2rem */
+    font-size: 1.2rem;
   }
 
   .details-info h2 {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
     font-weight: 600 !important;
     color: #60442b;
   }
 
-  .details-container,
-  .contact-container {
+  .details-container, .contact-container {
     width: 100%;
   }
 
-
-  .details-image-container{
+  .details-image-container {
     max-width: 75%;
-    background-size: 250% !important;
-    background-repeat: no-repeat;
   }
 
-  /* Display the mobile title and hide the desktop one */
   .details-title-mobile {
-    display: block; /* Show mobile version of the title */
+    display: block;
     font-weight: 300 !important;
     font-size: 4rem;
   }
 
   .details-title-desktop {
-    display: none; /* Hide desktop version of the title */
+    display: none;
+  }
+  .details-highlight-desktop {
+    display: none;
+  }
+
+  .details-highlight-mobile {
+    display: block;
+  }
+
+  .highlight-text {
+    font-size: 1.2em;
+    color: #333;
   }
 }
