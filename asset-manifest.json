@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/coleen-thai-knot/static/css/main.2c5de164.css",
-    "main.js": "/coleen-thai-knot/static/js/main.cf0425d7.js",
-    "static/js/453.0bc3462f.chunk.js": "/coleen-thai-knot/static/js/453.0bc3462f.chunk.js",
-    "static/media/cover.jpeg": "/coleen-thai-knot/static/media/cover.12c0a0c38d44f5ba45bd.jpeg",
-    "index.html": "/coleen-thai-knot/index.html",
-    "main.2c5de164.css.map": "/coleen-thai-knot/static/css/main.2c5de164.css.map",
-    "main.cf0425d7.js.map": "/coleen-thai-knot/static/js/main.cf0425d7.js.map",
-    "453.0bc3462f.chunk.js.map": "/coleen-thai-knot/static/js/453.0bc3462f.chunk.js.map"
+    "main.css": "/static/css/main.1ffa5ec5.css",
+    "main.js": "/static/js/main.dea005b9.js",
+    "static/js/453.0bc3462f.chunk.js": "/static/js/453.0bc3462f.chunk.js",
+    "static/media/cover.jpeg": "/static/media/cover.12c0a0c38d44f5ba45bd.jpeg",
+    "index.html": "/index.html",
+    "main.1ffa5ec5.css.map": "/static/css/main.1ffa5ec5.css.map",
+    "main.dea005b9.js.map": "/static/js/main.dea005b9.js.map",
+    "453.0bc3462f.chunk.js.map": "/static/js/453.0bc3462f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2c5de164.css",
-    "static/js/main.cf0425d7.js"
+    "static/css/main.1ffa5ec5.css",
+    "static/js/main.dea005b9.js"
   ]
 }
