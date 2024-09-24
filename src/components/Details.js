@@ -46,6 +46,7 @@ const Details = () => {
             </a>
           </p>
           <p>Boston, MA 02116</p>
+          <p className='small-note'>Meet at the Make Way for Ducklings sculpture</p>
           
           <h3>COCKTAIL HOUR</h3>
           <p>6:00 PM</p>
