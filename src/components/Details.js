@@ -12,13 +12,13 @@ const Details = () => {
       {/* Image container */}
       <div className="details-image-container">
         <img src="walking.jpg" alt="Walking" className="details-image" />
+        <div className="details-highlight details-highlight-desktop">
+          <p className="highlight-text">"Every moment led us here, <span className="falling-into-place">falling into place</span>, just as it was meant to be."</p>
+        </div>
       </div>
 
       <div className="details-content">
         {/* Highlighted "falling into place" quote for added theme emphasis */}
-        <div className="details-highlight details-highlight-desktop">
-          <p className="highlight-text">"Every moment led us here, <span className="falling-into-place">falling into place</span>, just as it was meant to be."</p>
-        </div>
         
         {/* Title for desktop view */}
         <h2 className="details-title-desktop">Details at a Glance</h2>
@@ -28,7 +28,7 @@ const Details = () => {
           This day celebrates the beautiful journey that brought us together, one piece at a time. As we take this next step, we’re grateful for every moment that guided us here.
         </p>        
         <br/>
-        <p className='italic'>Your presence is the final piece that will make our day truly complete!</p>
+        <p className='italic'>Your presence is all we need to make our day truly complete!</p>
         
         {/* Event details section */}
         <div className="details-info">
@@ -56,6 +56,7 @@ const Details = () => {
             </a>
           </p>
           <p>485 Foley St, Somerville, MA 02145</p>
+          <p className='small-note'>Transportation to Miscela will be provided if needed</p>
           
           <h3>DINNER</h3>
           <p>7:30 PM</p>
@@ -66,6 +67,7 @@ const Details = () => {
             </a>
           </p>
           <p>2 Alfred St, Woburn, MA 01801</p>
+          <p className='small-note'>Transportation to the restaurant will be provided if needed</p>
         </div>
       </div>
     </section>

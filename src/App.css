@@ -127,6 +127,11 @@
   color: #3a2e20; /* Title color to fit the theme */
 }
 
+.small-note {
+  font-style: italic;
+  font-size: 0.75rem;
+}
+
 /* Media Queries for Tablet and Smaller Devices */
 @media (max-width: 768px) {
   .header-logo {
