@@ -32,11 +32,10 @@ const Details = () => {
         
         {/* Event details section */}
         <div className="details-info">
-          <h2>The Day's Events</h2>
-          
           <h3>DRESS CODE</h3>
           <p>Cocktail attire</p>
-          
+
+          <h2>The Day's Events</h2>
           <h3>CEREMONY</h3>
           <p>4:15 PM</p>
           <p>
