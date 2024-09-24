@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaMapMarkerAlt } from 'react-icons/fa'; // Import the location icon
+import { RxDividerHorizontal } from 'react-icons/rx'
 
 const Details = () => {
   return (
@@ -26,16 +27,16 @@ const Details = () => {
         {/* Introductory message */}
         <p className='italic'>
           This day celebrates the beautiful journey that brought us together, one piece at a time. As we take this next step, we’re grateful for every moment that guided us here.
+          Your presence is all we need to make our day truly complete!
         </p>        
-        <br/>
-        <p className='italic'>Your presence is all we need to make our day truly complete!</p>
         
         {/* Event details section */}
         <div className="details-info">
-          <h3>DRESS CODE</h3>
+          <h2>DRESS CODE</h2>
           <p>Cocktail attire</p>
+          <br/>
 
-          <h2>The Day's Events</h2>
+          <h2>THE DAY'S EVENTS</h2>
           <h3>CEREMONY</h3>
           <p>4:15 PM</p>
           <p>
@@ -46,7 +47,7 @@ const Details = () => {
           </p>
           <p>Boston, MA 02116</p>
           <p className='small-note'>Start gathering at the Make Way for Ducklings sculpture at 4pm</p>
-          
+          <RxDividerHorizontal className="dot-icon" />
           <h3>COCKTAIL HOUR</h3>
           <p>6:00 PM</p>
           <p>
@@ -57,7 +58,7 @@ const Details = () => {
           </p>
           <p>485 Foley St, Somerville, MA 02145</p>
           <p className='small-note'>Transportation to Miscela will be provided if needed</p>
-          
+          <RxDividerHorizontal className="dot-icon" />
           <h3>DINNER</h3>
           <p>7:30 PM</p>
           <p>

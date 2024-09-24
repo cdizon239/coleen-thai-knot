@@ -91,7 +91,7 @@
 }
 
 .details-info h2, .details-info h3 {
-  margin: 2rem 0 0.5rem 0;
+  margin: 0.5rem 0 0.5rem 0;
   font-weight: 600 !important;
   color: #60442b; /* Added consistent color */
 }
@@ -304,4 +304,10 @@
 .falling-into-place {
   color: #8B4513; /* Brown color */
   font-weight: bold; /* Make it stand out */
+}
+
+.dot-icon {
+  font-size: 1rem; /* Adjust the size */
+  display: block; /* Make it display as a block element */
+  margin: 1rem auto; /* Adjust the spacing between sections */
 }
